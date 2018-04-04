@@ -1,0 +1,27 @@
+{
+  "name": "data-central",
+  "version": "1.0.0",
+  "description": "Query, explore and retrieve data from current and legacy surveys.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bulma": "^0.6.1",
+    "bulma-timeline": "^1.1.2",
+    "less": "^2.7.3",
+    "less-plugin-autoprefix": "^1.5.1",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass web_application/restapi_app/static/restapi_app/sass/bulma_custom.sass --output web_application/restapi_app/static/restapi_app/sass --source-map-embed --source-map-contents --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Liz Mannering",
+  "license": "ISC"
+}
